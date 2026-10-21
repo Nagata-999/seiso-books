@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T11:10:46+00:00",
+  "generated_at": "2026-10-21T12:15:16+00:00",
   "target": 1000,
   "candidates": [
     {
@@ -507,6 +507,153 @@
       "copyright_status": "要確認",
       "original_status": "未確認",
       "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-clockwork-man-1923",
+      "original_title": "The Clockwork Man",
+      "japanese_title": "時計仕掛けの男",
+      "authors": [
+        {
+          "name": "E. V. Odle",
+          "birth_year": 1890,
+          "death_year": 1942
+        }
+      ],
+      "first_publication_year": 1923,
+      "genres": [
+        "SF"
+      ],
+      "synopsis": {
+        "text": "1920年代の英国。クリケットの試合に現れた奇妙な男は、帽子の下に機械を隠していた。遠い未来から故障によって迷い込んだ彼は、時間や空間を変える装置を使い、人間の暮らしが機械に委ねられた社会を語り始める。便利さを得る一方で、感情や愛、現実感覚を失いつつある未来人。滑稽な騒動を通じて、人間にとって進歩とは何かが問われる。",
+        "verified": false
+      },
+      "blurb": {
+        "text": "機械が不便をすべて解消したら、人間は幸福になれるのか。百年前に描かれた未来人の珍騒動は、自由や愛、身体の意味をめぐる問いへ変わっていく。AIと仮想空間が身近になった今、未来を先取りした発想の鮮やかさが際立つ。",
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": 26,
+          "demand": 22,
+          "cultural_value": 18,
+          "rarity": 11,
+          "publishability": 6
+        },
+        "total": 83,
+        "stars": 4,
+        "kind": "provisional"
+      },
+      "reference_scores": [],
+      "translation_status": "邦訳未発見・未確認",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [
+        "https://www.gutenberg.org/ebooks/60374"
+      ],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-hampdenshire-wonder-1911",
+      "original_title": "The Hampdenshire Wonder",
+      "japanese_title": "ハンプデンシャーの驚異",
+      "authors": [
+        {
+          "name": "J. D. Beresford",
+          "birth_year": 1873,
+          "death_year": 1947
+        }
+      ],
+      "first_publication_year": 1911,
+      "genres": [
+        "SF"
+      ],
+      "synopsis": {
+        "text": "英国の田舎で生まれたヴィクターは、周囲と異なる容貌を持ち、成長するにつれて並外れた知性を示す。学者ヘンリー・チャリスはその能力に驚き、自らの学問や思想の前提を揺さぶられる。一方、村の聖職者は少年の問いを危険視し、既存の秩序に従わせようとする。超人的な知性を持つ子どもと、彼を理解できない大人たちの衝突が、人間の知性と寛容さを問う。",
+        "verified": false
+      },
+      "blurb": {
+        "text": "人類をはるかに超える知性が現れたら、私たちは歓迎するのか、恐れるのか。天才児の物語で試されるのは、子どもの能力ではなく大人たちの寛容さだ。科学、宗教、教育の常識が揺らぐ初期SFは、AI時代の読者にも問いを投げかける。",
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": 25,
+          "demand": 20,
+          "cultural_value": 19,
+          "rarity": 11,
+          "publishability": 6
+        },
+        "total": 81,
+        "stars": 4,
+        "kind": "provisional"
+      },
+      "reference_scores": [],
+      "translation_status": "邦訳未発見・未確認",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [
+        "https://www.gutenberg.org/ebooks/53028"
+      ],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-after-london-1885",
+      "original_title": "After London; Or, Wild England",
+      "japanese_title": "ロンドンの後に",
+      "authors": [
+        {
+          "name": "Richard Jefferies",
+          "birth_year": 1848,
+          "death_year": 1887
+        }
+      ],
+      "first_publication_year": 1885,
+      "genres": [
+        "SF"
+      ],
+      "synopsis": {
+        "text": "文明崩壊から長い年月が過ぎたイングランド。街道は草に埋もれ、農地は森へ戻り、かつてのロンドンは危険な湿地と湖に変わっている。生き残った人々は小国や領主の支配下で暮らし、技術の多くを失った。貴族の次男フェリックスは愛するオーロラへの思いを胸に旅立ち、小舟と弓を頼りに旧文明の痕跡へ近づいていく。自然の再生と人間社会の冒険が交錯する。",
+        "verified": false
+      },
+      "blurb": {
+        "text": "人間の文明が消えた百年後、街も道路も森に飲み込まれ、都市の名だけが伝説として残る。自然を観察し続けた作家が1885年に描いた終末世界は、廃墟の冒険にとどまらない。人間の営みの儚さと、なお続いていく生命の力を感じさせる異色作。",
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": 24,
+          "demand": 18,
+          "cultural_value": 19,
+          "rarity": 11,
+          "publishability": 5
+        },
+        "total": 77,
+        "stars": 4,
+        "kind": "provisional"
+      },
+      "reference_scores": [],
+      "translation_status": "邦訳未発見・未確認",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [
+        "https://www.gutenberg.org/ebooks/13944"
+      ],
       "research_date": "2026-10-21",
       "registered_on": "2026-10-21",
       "published": false,
