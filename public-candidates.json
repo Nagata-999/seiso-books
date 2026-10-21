@@ -1,0 +1,518 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-21T11:10:46+00:00",
+  "target": 1000,
+  "candidates": [
+    {
+      "id": "work-0001",
+      "original_title": "The Land of the Changing Sun",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Will N. Harben",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 79,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0002",
+      "original_title": "The House of the Wolfings",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "William Morris",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 79,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0003",
+      "original_title": "The Lady of the Shroud",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Bram Stoker",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 76,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0004",
+      "original_title": "The Great War Syndicate",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Frank R. Stockton",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 74,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "調査中",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": [
+        "1971年刊行の邦訳が報告されています。書誌情報の再確認が必要です。未邦訳とは扱いません。"
+      ]
+    },
+    {
+      "id": "work-0005",
+      "original_title": "The Inner House",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Walter Besant",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 80,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0006",
+      "original_title": "The Goddess: A Demon",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Richard Marsh",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 69,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0007",
+      "original_title": "The Last Generation: A Story of the Future",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "James Elroy Flecker",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 77,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0008",
+      "original_title": "The Blind Spot",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "Austin Hall",
+          "birth_year": null,
+          "death_year": null
+        },
+        {
+          "name": "Homer Eon Flint",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 69,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "未調査",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": [
+        "電子版に後年の序文が含まれる可能性があります。原著本文と追加著作物の権利を分けて確認します。"
+      ]
+    },
+    {
+      "id": "work-0009",
+      "original_title": "The Air Trust",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "George Allan England",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": 1915,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 80,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "邦訳未発見・未確認",
+      "copyright_status": "要確認",
+      "original_status": "一部確認",
+      "original_urls": [
+        "https://www.gutenberg.org/cache/epub/12826/pg12826-images.html"
+      ],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    },
+    {
+      "id": "work-0010",
+      "original_title": "The Scarlet Empire",
+      "japanese_title": null,
+      "authors": [
+        {
+          "name": "David MacLean Parry",
+          "birth_year": null,
+          "death_year": null
+        }
+      ],
+      "first_publication_year": null,
+      "genres": [],
+      "synopsis": {
+        "text": null,
+        "verified": false
+      },
+      "blurb": {
+        "text": null,
+        "verified": false
+      },
+      "evaluation": {
+        "scores": {
+          "interest": null,
+          "demand": null,
+          "cultural_value": null,
+          "rarity": null,
+          "publishability": null
+        },
+        "total": null,
+        "stars": null,
+        "kind": "unscored"
+      },
+      "reference_scores": [
+        {
+          "total": 71,
+          "date": "2026-10-21"
+        }
+      ],
+      "translation_status": "邦訳未発見・未確認",
+      "copyright_status": "要確認",
+      "original_status": "未確認",
+      "original_urls": [],
+      "research_date": "2026-10-21",
+      "registered_on": "2026-10-21",
+      "published": false,
+      "strengths": [],
+      "weaknesses": [],
+      "unverified_points": []
+    }
+  ]
+}

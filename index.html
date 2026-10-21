@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#172d43">
+  <meta name="description" content="星霜書店 世界文学発掘叢書。まだ出会っていない物語を、世界の書棚から。英語古典文学の発掘と調査の記録。">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>星霜書店｜世界文学発掘叢書</title>
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <header class="masthead"><a class="brand" href="#home"><span class="mark" aria-hidden="true">✧</span><span>星霜書店<small>SEISO BOOKS</small></span></a><span class="edition">世界文学発掘叢書<br><span>DISCOVERY JOURNAL</span></span></header>
+  <main id="main" tabindex="-1">
+    <div id="notice" class="notice" role="status">書棚を読み込んでいます…</div>
+    <section id="home" class="view" hidden>
+      <div class="hero"><p class="eyebrow">世界の書棚から、あなたの一冊へ。</p><h1>まだ出会っていない<br>物語を、ひらく。</h1><p class="intro">忘れられた英語古典を発掘し、<br>いま、日本語で読む価値を探していく。<br>星霜書店の小さな調査手帖です。</p><a class="primary" href="#catalogue">発掘作品を見る <span aria-hidden="true">↗</span></a><span class="hero-ornament" aria-hidden="true">✧</span></div>
+      <div class="section-heading"><h2>発掘の現在地</h2><span class="eyebrow">THE COLLECTION</span></div>
+      <div id="metrics"></div>
+      <div class="section-heading"><div><p class="eyebrow">RECENT DISCOVERIES</p><h2>書棚に加わった作品</h2></div><a href="#catalogue">すべて見る ↗</a></div>
+      <div id="recent" class="cards"></div>
+      <div class="section-heading"><div><p class="eyebrow">EDITOR’S RESEARCH</p><h2>評価から見つける</h2></div></div>
+      <div id="featured" class="cards"></div>
+      <aside class="editorial-note"><span class="eyebrow">この手帖について</span><p>ここに並ぶのは、出版に向けて調査している候補作品です。評価や邦訳・権利の状況には未確認の情報を含みます。作品の掲載は、翻訳や出版の決定を意味しません。</p></aside>
+    </section>
+    <section id="catalogue" class="view" hidden>
+      <p class="eyebrow">THE COLLECTION</p><h1>発掘作品の書棚</h1><p class="subtle">次に読みたい物語を、少しずつ。</p>
+      <div class="controls"><label class="search-label">作品・著者を探す<input id="search" type="search" placeholder="原題、仮邦題、著者、ジャンル" autocomplete="off"></label><div class="control-row"><label>ジャンル<select id="genre"><option value="">すべてのジャンル</option></select></label><label>並べ替え<select id="sort"><option value="recent">追加が新しい順</option><option value="rating">採点順（暫定・正式）</option><option value="reference">過去参考点順</option><option value="year">初版年が古い順</option><option value="research">調査日が新しい順</option><option value="title">原題順</option></select></label></div><label>評価区分<select id="rating-kind"><option value="">すべての評価</option><option value="formal">正式評価</option><option value="provisional">暫定評価</option><option value="reference">過去参考点あり・未採点</option><option value="unscored">未採点すべて</option></select></label></div>
+      <p id="results" class="subtle" role="status"></p><div id="collection" class="cards"></div><button id="more" class="secondary" hidden>さらに24作品を見る</button>
+    </section>
+    <section id="activity" class="view" hidden><p class="eyebrow">RESEARCH JOURNAL</p><h1>調査の記録</h1><p class="subtle">公開用データの登録日と最終調査日からまとめています。内部の調査履歴や更新内容は公開していません。</p><div id="research-stats" class="chips"></div><div id="timeline" class="timeline"></div></section>
+    <section id="publications" class="view" hidden><p class="eyebrow">OUR BOOKS</p><h1>星霜書店の本</h1><p class="subtle">発掘した物語を、一冊の本へ。</p><div id="published" class="cards"></div></section>
+    <section id="detail" class="view" hidden></section>
+    <noscript><p>作品一覧の表示にはJavaScriptを有効にしてください。<a href="./public-candidates.json">公開用JSONを読む</a></p></noscript>
+    <footer><span class="footer-brand">星霜書店</span><p>世界文学発掘叢書</p><small id="snapshot-date"></small><p><button id="refresh" class="text-button">最新の公開データを確認 ↻</button></p><small>© 星霜書店 · SEISO BOOKS</small></footer>
+  </main>
+  <nav class="bottom-nav" aria-label="メインナビゲーション"><a href="#home"><span aria-hidden="true">⌂</span>ホーム</a><a href="#catalogue"><span aria-hidden="true">▤</span>作品一覧</a><a href="#activity"><span aria-hidden="true">◷</span>調査記録</a><a href="#publications"><span aria-hidden="true">▧</span>出版作品</a></nav>
+</body>
+</html>

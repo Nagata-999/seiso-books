@@ -1,0 +1,344 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "target",
+    "candidates"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [
+        1
+      ]
+    },
+    "generated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "candidates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "original_title",
+          "japanese_title",
+          "authors",
+          "first_publication_year",
+          "genres",
+          "synopsis",
+          "blurb",
+          "evaluation",
+          "reference_scores",
+          "translation_status",
+          "copyright_status",
+          "original_status",
+          "original_urls",
+          "research_date",
+          "registered_on",
+          "published",
+          "strengths",
+          "weaknesses",
+          "unverified_points"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "original_title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "japanese_title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "birth_year",
+                "death_year"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "birth_year": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 9999
+                },
+                "death_year": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 9999
+                }
+              }
+            }
+          },
+          "first_publication_year": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "maximum": 9999
+          },
+          "genres": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "synopsis": {
+            "type": "object",
+            "required": [
+              "text",
+              "verified"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            }
+          },
+          "blurb": {
+            "type": "object",
+            "required": [
+              "text",
+              "verified"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "verified": {
+                "type": "boolean"
+              }
+            }
+          },
+          "evaluation": {
+            "type": "object",
+            "required": [
+              "scores",
+              "total",
+              "stars",
+              "kind"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "scores": {
+                "type": "object",
+                "required": [
+                  "interest",
+                  "demand",
+                  "cultural_value",
+                  "rarity",
+                  "publishability"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "interest": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 30
+                  },
+                  "demand": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 25
+                  },
+                  "cultural_value": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 20
+                  },
+                  "rarity": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 15
+                  },
+                  "publishability": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 0,
+                    "maximum": 10
+                  }
+                }
+              },
+              "total": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 100
+              },
+              "stars": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 5
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "unscored",
+                  "provisional",
+                  "formal"
+                ]
+              }
+            }
+          },
+          "reference_scores": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "total",
+                "date"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "total": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 100
+                },
+                "date": {
+                  "type": "string",
+                  "format": "date"
+                }
+              }
+            }
+          },
+          "translation_status": {
+            "type": "string",
+            "enum": [
+              "未調査",
+              "調査中",
+              "邦訳未発見・未確認",
+              "古い邦訳あり",
+              "比較的新しい邦訳あり",
+              "現行邦訳あり",
+              "十分な調査により未邦訳と判断"
+            ]
+          },
+          "copyright_status": {
+            "type": "string",
+            "enum": [
+              "未調査",
+              "調査中",
+              "要確認",
+              "確認済み"
+            ]
+          },
+          "original_status": {
+            "type": "string",
+            "enum": [
+              "未確認",
+              "一部確認",
+              "読了"
+            ]
+          },
+          "original_urls": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "research_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "registered_on": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "published": {
+            "type": "boolean"
+          },
+          "strengths": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "weaknesses": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "unverified_points": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}
